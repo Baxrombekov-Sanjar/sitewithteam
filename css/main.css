@@ -1,3 +1,107 @@
+.conteiner {
+  margin: 0 auto;
+  width: 1300px;
+}
 
+.header {
+  background: #f7ede8;
+}
+.header .header__nav {
+  display: flex;
+  margin-top: 24px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .header__nav-list {
+  display: flex;
+  margin-right: 200px;
+}
+.header a {
+  text-decoration: none;
+  color: var(--black, #000);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header .header__nav-item {
+  margin-left: 60px;
+  list-style: none;
+}
+.header .button-1 {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background-color: #f7ede8;
+}
+.header .button-2 {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--black, #000);
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+}
+.header .button-2 a {
+  color: white;
+}
+.header h1 {
+  color: var(--black, #000);
+  text-align: center;
+  margin-top: 162px;
+  font-family: Montserrat Alternates;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -3.84px;
+}
+.header h1 span {
+  color: var(--vermillion, #cd4631);
+  font-family: Montserrat Alternates;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -3.84px;
+}
+.header .header__hero-text {
+  color: var(--davys-grey, #4d4d4d);
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  padding: 100px;
+}
+.header .header__left-img {
+  position: absolute;
+  margin-top: -500px;
+}
+.header .header__right-img {
+  position: absolute;
+  margin-left: 1239px;
+  margin-top: -350px;
+}
+.header input {
+  position: absolute;
+  display: flex;
+  width: 570px;
+  padding: 24px 0px 24px 40px;
+  align-items: center;
+  gap: 24px;
+  margin-left: 420px;
+  border-radius: 16px;
+  border: 1.5px solid var(--black, #000);
+  background: #fff;
+  box-shadow: 6px 6px 0px 0px #81adc8;
+  margin-top: -30px;
+}
 
 /*# sourceMappingURL=main.css.map */
