@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>HomePage</title>
+  </head>
+  <body>
     <header class="header">
-        <nav class="header__nav"></nav>
+      <nav class="header__nav container">
+          <ul class="header__nav-list">
+            <li class="header__nav-logo">
+                <a href="#" class="header__nav-link"><img src="img/logo.svg" alt="logo"/></a>
+            </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Episodes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">About</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">More</a>
+          </li>
+        </ul>
+        <div class="header__nav-btns">
+            <a href="#">
+                RECENT EPISODES
+            </a>
+            <a href="#">
+                SUBSCRIBE
+            </a>
+        </div>
+      </nav>
+      <div class="header__hero">
+        <div class="header__hero-text">
+          <h1>Your Daily <br>
+            <span>Podcast</span></h1>
+            <p>We cover all kinds of categories and <br>
+              a weekly special guest.</p>
+              <button>SUBSCRIBE</button>
+              <div class="header__hero-img">
+                <img src="img/Hero Shape Swirl.svg" alt="shape">
+                <img src="img/stars.png" alt="stars">
+              </div>
+        </div>
+        <div class="header__hero-galerry">
+          <img src="img/cover.png" alt="galleryimg">
+          <img src="img/cover (1).png" alt="galleryimg2">
+          <img src="img/cover (2).png" alt="galleryimg3">
+          <img src="img/cover (4).png" alt="galleryimg4">
+          <img src="img/cover (3).png" alt="galleryimg5">
+        </div>
+        <div class="header__hero-support container">
+          <p>Supported by:</p>
+          <img src="img/Spotify.svg" alt="Spotify">
+          <img src="img/Google Podcast.svg" alt="Google">
+          <img src="img/Youtube.svg" alt="Youtube">
+        </div>
+        <img class="scribble" src="img/Scribble.svg" alt="headerend">
+      </div>
     </header>
-</body>
+  </body>
 </html>
