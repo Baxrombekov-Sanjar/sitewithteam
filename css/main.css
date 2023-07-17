@@ -104,4 +104,161 @@
   margin-top: -30px;
 }
 
+main .title {
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-size: 59.3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1.186px;
+  margin-top: 141px;
+}
+main .h2-img {
+  margin-top: -60px;
+  line-height: 140%;
+  letter-spacing: -0.453px;
+  margin-left: -600px;
+  margin-bottom: -120px;
+}
+main .main__list {
+  display: flex;
+  list-style: none;
+  margin-top: 80px;
+}
+main .main__list-item a {
+  text-decoration: none;
+  color: var(--davys-grey, #4d4d4d);
+  margin-left: 100px;
+  font-family: Montserrat Alternates;
+  font-size: 22.65px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main a span {
+  color: #cd4631;
+  font-weight: 700;
+  line-height: 140%;
+}
+main .hr-1 {
+  width: 1160px;
+  height: 0px;
+  flex-shrink: 0;
+  stroke-width: 1.5px;
+  stroke: var(--davys-grey, #4d4d4d);
+}
+main .podcast__text h3 {
+  width: 538px;
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+main .podcast__text h2 {
+  width: 538px;
+  height: 37px;
+  color: var(--vermillion, #cd4631);
+  font-family: Montserrat Alternates;
+  font-size: 36.65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.733px;
+}
+main .podcast__text p {
+  width: 538px;
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main .button-1 {
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--davys-grey, #4d4d4d);
+}
+main .button-1 a {
+  text-decoration: none;
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main .podcast button {
+  margin-right: 6px;
+}
+main .podcast__button {
+  display: flex;
+}
+main .button-2 {
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main .button-2 a {
+  text-decoration: none;
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main .button-3 {
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--davys-grey, #4d4d4d);
+}
+main .button-3 a {
+  text-decoration: none;
+  color: var(--davys-grey, #4d4d4d);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+main .hr-2 {
+  width: 538px;
+  height: 0px;
+  stroke-width: 0.5px;
+  stroke: var(--davys-grey, #4d4d4d);
+}
+main .podcast {
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 540px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 8px;
+  border: 2px solid var(--black, #000);
+  background: #fff;
+  box-shadow: 10px 10px 0px 0px #000;
+}
+main .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1px;
+}
+
 /*# sourceMappingURL=main.css.map */
